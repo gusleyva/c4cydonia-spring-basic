@@ -1,0 +1,10 @@
+entity:
+  welcome: welcome-message
+  allowed-formats: '{
+    "web": "jar,xml,json",
+    "mobile": "json,apk,ios",
+    "iot": "3gp,m4v,mov,mp4,wmv",
+    "media-type":"bmp,dib,gif,jpg,jpeg,png"
+  }'
+  restricted-formats: '{"default": "bat,com,dll,exe,msi,dmg", "custom": ""}'
+  max-size-long: '{"web": 2097152, "mobile": 10485760, "iot": 150, "media-type": 104857600}'

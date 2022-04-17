@@ -1,0 +1,11 @@
+entity:
+  welcome: welcome-message
+  allowed-formats: '{
+    "mms-message": "3gp,amr,3ga,m4a,m4p,m4b,m4r,mp3,wav,bmp,dib,gif,jpg,jpeg,png,h263,h264,mp4,m4v",
+    "sms-message": "txt",
+    "email-message": "doc,pdf,txt,3gp,amr,3ga,m4a,m4p,m4b,m4r,mp3,wav,bmp,dib,gif,jpg,jpeg,png,h263,h264,m4v",
+    "chat-upload": "csv,doc,docm,docx,dotx,eml,msg,odp,ods,odt,pdf,pot,potm,potx,pps,ppsx,ppt,pptm,pptx,rtf,vsd,vsdx,xls,xlsb,xlsm,xlsx,ai,arw,bmp,cr2,eps,erf,gif,ico,icon,jpeg,jpg,mrw,nef,orf,pict,png,psd,tif,tiff,3gp,m4v,mov,mp4,wmv,3mf,fbx,obj,ply,stl,dcm,dcm30,dic,dicm,dicom,abap,ada,adp,ahk,as,as3,asc,ascx,asm,asp,awk,bash,bash_login,bash_logout,bash_profile,bashrc,bat,bib,bsh,build,builder,c,c++,capfile,cc,cfc,cfm,cfml,cl,clj,cls,cmake,cmd,coffee,cpp,cpt,cpy,cs,cshtml,cson,csproj,css,ctp,cxx,d,ddl,di,dif,diff,disco,dml,dtd,dtml,el,emakefile,erb,erl,f,f90,f95,fs,fsi,fsscript,fsx,gemfile,gemspec,gitconfig,go,groovy,gvy,h,h++,haml,handlebars,hbs,hcp,hh,hpp,hrl,hs,htc,hxx,idl,iim,inc,inf,ini,inl,ipp,irbrc,jade,jav,java,js,jsp,jsx,l,less,lhs,lisp,log,lst,ltx,lua,m,make,markdn,markdown,md,mdown,mkdn,ml,mli,mll,mly,mm,mud,nfo,opml,osascript,out,p,pas,patch,php,php2,php3,php4,php5,phtml,pl,plist,pm,pod,pp,profile,properties,ps1,pt,py,pyw,r,rake,rb,rbx,rc,re,readme,reg,rest,resw,resx,rhtml,rjs,rprofile,rpy,rss,rst,rxml,s,sass,scala,scm,sconscript,sconstruct,script,scss,sgml,sh,shtml,sml,sql,sty,tcl,tex,text,textile,tld,tli,tmpl,tpl,txt,vb,vi,vim,wsdl,xhtml,xml,xoml,xsd,xsl,xslt,yaml,yaws,yml,zsh",
+    "recording-file": "3gp,m4v,mov,mp4,wmv"
+  }'
+  restricted-formats: '{"default": "7x,ade,mde,adp,apk,appx,appxbundle,aspx,bat,com,dll,exe,msi,cab,cmd,cpl,dmg,gz,hta,ins,ipa,iso,isp,jar,js,jse,jsp,lib,lnk,msc,msix,msixbundle,msp,mst,nsh,pif,ps1,scr,sct,wsc,shb,sys,vb,vbe,vbs,vxd,wsf,wsh,tar", "custom": ""}'
+  max-size-long: '{"mms-message": 2097152, "sms-message": 150, "email-message": 10485760, "chat-upload": 104857600, "recording-file": 524288000}'
