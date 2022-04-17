@@ -1,0 +1,14 @@
+curl --location --request POST 'localhost:8080/api/v1/messages/manual' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "title": "test1",
+  "messageDataType": "GENERIC",
+  "createdAt": "2022-08-03T10:15:30+01:00",
+  "senders": ["GENERIC"],
+  "isActive": "false",
+  "data": {
+    "createdAt": "2022-02-08T18:25:43.511Z",
+    "field1": "test1",
+    "field2": "test2"
+  }
+}'
